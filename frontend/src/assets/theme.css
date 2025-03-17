@@ -1,0 +1,40 @@
+/* 主题CSS变量 */
+
+:root {
+    /* 浅色主题 (默认) */
+    --primary-color: #409eff;
+    --primary-light: #ecf5ff;
+    --text-color: #303133;
+    --text-color-secondary: #606266;
+    --border-color: #dcdfe6;
+    --background-color: #f5f7fa;
+    --message-bg-color: #ffffff;
+    --message-own-bg-color: #ecf5ff;
+    --sidebar-bg-color: #ffffff;
+    --hover-color: #f5f7fa;
+    --box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* 深色主题 */
+
+[data-theme="dark"] {
+    --primary-color: #409eff;
+    --primary-light: #1c2b3e;
+    --text-color: #e5e7eb;
+    --text-color-secondary: #a0aec0;
+    --border-color: #4a5568;
+    --background-color: #1a202c;
+    --message-bg-color: #2d3748;
+    --message-own-bg-color: #2b3d5e;
+    --sidebar-bg-color: #2d3748;
+    --hover-color: #323c4e;
+    --box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* 动画过渡 */
+
+* {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
